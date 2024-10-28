@@ -9,27 +9,22 @@ For this assignment, you'll use the Underwater Animal Detection Dataset (UWSDet_
 
 ## Notebook:
 You should use these two notebooks for two experiments: 
-    * [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb).
-    * [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb).
+   - [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb).
+   - [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb).
 
 ## Expectations: ☑️
-You need to create a Colab notebook starting from here [_Notebook_3_starter notebook_](https://github.com/alimoorreza/CS195-Fall24-Notebook-3/blob/main/cs195_notebook3_starter.ipynb), then add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
-1. **Data, Evaluation Metric, Optimizer, Hyper-parameters** [2 points]: Write the names and values for the following: 
+You need to create a Colab notebook starting from here - [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb), then add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
+1. **Data, Evaluation Metric** [2 points]: Write the names and values for the following: 
     - __Total number of samples__: total number of examples you have in the dataset
     - __Total number of training samples__: total number of examples you have in the training split of the dataset
     - __Total number of testing samples__: total number of examples you have in the testing split of the dataset
     - __Number of classes__: total number of categories in the dataset
-    - __Metrics__: metrics you used to evaluate your model
-    - __Optimizer__: learning algorithms you tried and which important hyper-parameters you tuned.
 2.  **Results** [2.5 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. More explicitly, you should fill in the following table:
 
-| **Model**                        |**Best epoch** |**Best performance** |**Best optimizer** 
-| :------------------------------- | ------------: | ------------: | ------------: |
-| 1: AlexNet                       |               |               |               |
-| 2: VGG16                         |               |               |               |
-| 3: ResNet18                      |               |               |               |
-| 4: ResNet50                      |               |               |               |
-| 5: ResNet152                     |               |               |               |
+| **Model**                        |**Total False Positive** |**Total False Negative** |
+| :------------------------------- | ------------      :     | ------------: | 
+| 1: Faster R-CNN                  |                         |               |
+| 2: Mask R-CNN                    |                         |               |
 
 📉 📊 📈 💹 You also should include **visualizations (graphs)** of tuning parameters eg, _loss curves_, _accuracy curves_, _confusion matrices_.
 
