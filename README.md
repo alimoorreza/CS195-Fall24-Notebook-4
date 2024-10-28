@@ -1,15 +1,16 @@
-# CS195-Fall24-Notebook-3
-## Underwater Animal Classification
+# CS195-Fall24-Notebook-4
+## Underwater Animal Detection
 
-<b>Due</b>: Wednesday, October 2nd, 2024
+<b>Due</b>: Wednesday, November 6th, 2024
 
-For this assignment, you'll be using the `underwater animal dataset (uws_v1)` that's been provided. You can also find it on Blackboard for the CS195 course. This is a multi-class classification task, which means it involves sorting different types of underwater animals like *dolphins, polar bears, turtles, sharks,* and *whales*. Your goal is to train a deep neural network using this dataset, so it can predict which species an animal belongs to when given a new image.
+For this assignment, you'll use the Underwater Animal Detection Dataset (UWSDet_v1), which has been provided and is also available on Blackboard for the CS195 course. This is a single-class detection task, requiring you to detect the presence of an underwater animal in the image (from the following four categories: dolphins, seals, sharks, and whales) and provide the rectangular bounding box where the animal is located within the image. Your goal is to fine-tune two deep neural network-based detectors, such as Faster R-CNN and Mask R-CNN, using this dataset.
 ![Underwater Animal Categories](https://github.com/alimoorreza/CS195-Fall24-Notebook-3/blob/main/etc/uws_v1_samples.png)
 
 
 ## Notebook:
-You should use this [_Notebook_3_starter notebook_](https://github.com/alimoorreza/CS195-Fall24-Notebook-3/blob/main/cs195_notebook3_starter.ipynb). It contains the most crucial part, i.e., the code for three CNNs: AlexNet, VGGNet, and ResNet. 
-<!--For other machine learning functions, you can borrow them from previous notebooks, such as [CNN finetuning](https://github.com/alimoorreza/CS167-fall24-notes/blob/main/cs195_cnn_finetuning.ipynb).-->
+You should use these two notebooks for two experiments: 
+    * [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb).
+    * [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb).
 
 ## Expectations: ☑️
 You need to create a Colab notebook starting from here [_Notebook_3_starter notebook_](https://github.com/alimoorreza/CS195-Fall24-Notebook-3/blob/main/cs195_notebook3_starter.ipynb), then add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
