@@ -22,21 +22,14 @@ You need to create a Colab notebook starting from here - [_Notebook_4_starter fo
 2.  **Results** [2.5 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. More explicitly, you should fill in the following table:
 
 | **Model**                        |**Total False Positive** |**Total False Negative** |
-| :------------------------------- | ------------      :     | ------------: | 
+| -------------------------------  | ------------            | ------------ | 
 | 1: Faster R-CNN                  |                         |               |
 | 2: Mask R-CNN                    |                         |               |
 
 📉 📊 📈 💹 You also should include **visualizations (graphs)** of tuning parameters eg, _loss curves_, _accuracy curves_, _confusion matrices_.
 
-3.  **Conclusions** [0.5 point]: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? Why do you think models are giving excellent results from the first epoch? Do you need too many epochs to find your best? Why or why not? In general, I want a discussion of your experiment, the results, and what they mean.
+3.  **Conclusions** [0.5 point]: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? In general, I want a discussion of your experiment, the results, and what they mean.
 
-
-### Your Experiments should demonstrate the following well-established and effective convolutional neural networks (CNNs):
-- **AlexNet**
-- **VGGNet**
-- **ResNet18**
-- **ResNet50**
-- **ResNet152**
 
 
 ### Rubric:
