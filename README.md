@@ -13,32 +13,20 @@ You should use these two notebooks for two experiments:
    - [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb).
 
 ## Expectations: ☑️
-You need to create a Colab notebook starting from here - [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb). After completing the Faster R-CNN experiment, proceed to [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb). Add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
-1. **Data, Evaluation Metric** [2 points]: Write the names and values for the following: 
-    - __Total number of samples__: total number of examples you have in the dataset
-    - __Total number of training samples__: total number of examples you have in the training split of the dataset
-    - __Total number of testing samples__: total number of examples you have in the testing split of the dataset
-    - __Number of classes__: total number of categories in the dataset
-2.  **Results** [2.5 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. More explicitly, you should fill in the following table:
+You need to create a Colab notebook starting from here - [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb). After completing the Faster R-CNN experiment, proceed to [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb). Add your code and results to document your experiment.
 
-| **Model**                        |**Total False Positive** |**Total False Negative** |
-| -------------------------------  | ------------            | ------------ | 
-| 1: Faster R-CNN                  |                         |               |
-| 2: Mask R-CNN                    |                         |               |
-
-📉 📊 📈 💹 You also should include **visualizations (graphs)** of tuning parameters eg, _loss curves_, _accuracy curves_, _confusion matrices_.
-
-3.  **Conclusions** [0.5 point]: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? In general, I want a discussion of your experiment, the results, and what they mean.
+📉 📊 📈 💹 You also should include **textual visualization which will be produced automatically** during fine-tuning
 
 
 
 ### Rubric:
-> *This assignment is worth 5 points. It will be graded using the following rubric. I strongly suggest evaluating your project using this rubric before turning it in. It consists of two criteria: 1) *writing (2.5 points)*, and 2) *code (2.5 points)*. The details of the rubrics are as follows:
+> *This assignment is worth 10 points. It will be graded using the following rubric. I strongly suggest evaluating your project using this rubric before turning it in. It consists of two criteria: 1) *writing, and 2) *code. The details of the rubrics are as follows:
 
-| Exercise #  | Points Awarded (out of 5)  | Notes |
+| Exercise #  | Points Awarded (out of 10)  | Notes |
 | --------- | ------------------- | --------- |
-| 1: Data, Evaluation Metric, Optimizer, Hyper-parameters          |    -/2.0    |            |
-| 2: Results                                                       |    -/2.5    |            | 
-| 3: Conclusions                                                   |    -/0.5    |            | 
-| <b>Total                                                         |    -/5      |     </b>   |
+| 1: Faster R-CNN fine-tuning                                      |    -/2.0    |            |
+| 2: Faster R-CNN inference                                        |    -/3.0    |            |
+| 3: Mask R-CNN fine-tuning                                        |    -/2.0    |            |
+| 4: Mask R-CNN inference                                          |    -/3.0    |            |
+| <b>Total                                                         |    -/10.0   |     </b>   |
 
