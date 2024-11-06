@@ -13,7 +13,7 @@ You should use these two notebooks for two experiments:
    - [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb).
 
 ## Expectations: ☑️
-You need to create a Colab notebook starting from here - [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb), then add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
+You need to create a Colab notebook starting from here - [_Notebook_4_starter for Faster R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_faster_rcnn_starter.ipynb). After completing the Faster R-CNN experiment, proceed to [_Notebook_4_starter for Mask R-CNN_](https://github.com/alimoorreza/CS195-Fall24-Notebook-4/blob/main/cs195_notebook4_mask_rcnn_starter.ipynb). Add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
 1. **Data, Evaluation Metric** [2 points]: Write the names and values for the following: 
     - __Total number of samples__: total number of examples you have in the dataset
     - __Total number of training samples__: total number of examples you have in the training split of the dataset
